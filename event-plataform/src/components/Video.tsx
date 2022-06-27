@@ -1,3 +1,4 @@
+import { DefaultUi, Player, Youtube } from "@vime/react";
 import {
   DiscordLogo,
   Lightning,
@@ -5,11 +6,18 @@ import {
   CaretRight,
 } from "phosphor-react";
 
+import '@vime/core/themes/default.css';
+
 export function Video() {
   return (
     <div className="flex-1">
       <div className="bg-black flex justify-center">
-        <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video"></div>
+        <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video">
+          <Player>
+            <Youtube videoId="Ox_zb2cs9zM"/>
+            <DefaultUi />
+          </Player>
+        </div>
       </div>
 
       <div className="p-8 max-w-[1100] mx-auto">
@@ -68,7 +76,7 @@ export function Video() {
             href=""
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
-            <div className="bg-green-600 h-full p-6 flex items-center">
+            <div className="bg-green-700 h-full p-6 flex items-center">
               <FileArrowDown size={40} />
             </div>
             <div className="py-6 leading-relaxed">
@@ -78,7 +86,7 @@ export function Video() {
                 desenvolvimento
               </p>
             </div>
-            <div className="h-full flex items-center">
+            <div className="h-full p-6 flex items-center">
               <CaretRight size={24} />
             </div>
           </a>
@@ -87,16 +95,17 @@ export function Video() {
             href=""
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
-            <div className="bg-green-600 h-full p-6 flex items-center">
+            <div className="bg-green-700 h-full p-6 flex items-center">
               <FileArrowDown size={40} />
             </div>
             <div className="py-6 leading-relaxed">
               <strong className="text-2xl">Wallpapers exclusivos</strong>
               <p className="text-sm text-gray-200 mt-2">
-              Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina
+                Baixe wallpapers exclusivos do Ignite Lab e personalize a sua
+                máquina
               </p>
             </div>
-            <div className="h-full flex items-center">
+            <div className="h-full p-6 flex items-center">
               <CaretRight size={24} />
             </div>
           </a>
