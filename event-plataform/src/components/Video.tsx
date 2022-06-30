@@ -14,7 +14,7 @@ export function Video() {
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video">
           <Player>
-            <Youtube videoId="Ox_zb2cs9zM"/>
+            <Youtube videoId="90y5707fJbI"/>
             <DefaultUi />
           </Player>
         </div>
