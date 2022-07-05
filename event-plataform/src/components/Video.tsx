@@ -53,8 +53,8 @@ export function Video(props: VideoProps) {
 
   if (!data) {
     return (
-      <div className="flex-1">
-        <h1>CARREGANDO...</h1>
+      <div className="flex flex-1 justify-center h-full w-full">
+        <div>Carregando</div>
       </div>
     );
   }
@@ -62,7 +62,7 @@ export function Video(props: VideoProps) {
   return (
     <div className="flex-1">
       <div className="bg-black flex justify-center">
-        <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video mx-48">
+        <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video">
           <Player>
             <Youtube videoId={data.lesson.videoId} />
             <DefaultUi />
@@ -70,7 +70,7 @@ export function Video(props: VideoProps) {
         </div>
       </div>
 
-      <div className="p-8 max-w-[1100] mx-32">
+      <div className="p-8 max-w-[1100]">
         <div className="flex items-start gap-16">
           <div className="flex-1">
             <h1 className="text-2xl font-bold ">{data.lesson.title}</h1>
