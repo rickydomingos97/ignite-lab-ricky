@@ -46,5 +46,6 @@ export function Lesson(props: LessonProps) {
         <strong className="text-gray-200 mt-5 block">{props.title}</strong>
       </div>
     </Link>
+    
   );
 }

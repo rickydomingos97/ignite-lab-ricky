@@ -53,14 +53,14 @@ export function Video(props: VideoProps) {
 
   if (!data) {
     return (
-      <div className="flex flex-1 justify-center h-full w-full">
+      <div className="flex flex-1 justify-center h-full w-[1092px]">
         <div>Carregando</div>
       </div>
     );
   }
 
   return (
-    <div className="flex-1">
+    <div className="w-[1092px]">
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video">
           <Player>
