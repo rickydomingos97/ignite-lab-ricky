@@ -8,6 +8,7 @@ import {
 } from "phosphor-react";
 
 import "@vime/core/themes/default.css";
+import Footer from "./Footer";
 
 const GET_LESSONS_BY_SLUG_QUERY = gql`
   query GetLessonBySlug($slug: String) {
@@ -155,6 +156,7 @@ export function Video(props: VideoProps) {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

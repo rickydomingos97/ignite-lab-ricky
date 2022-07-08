@@ -1,6 +1,7 @@
 import { gql, useMutation } from "@apollo/client";
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 import { Logo } from "../components/Logo";
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
@@ -89,16 +90,7 @@ export function Subscribe() {
       </div>
 
       <img src="/src/assets/code-mockup.png" className="mt-[-200px]" alt="" />
-
-      <footer className="w-full h-20 bg-gray-900 justify-between items-center flex">
-        <div className="flex flex-1 justify-between items-center mx-6">
-          <img src="/src/assets/logo-rocket.png" className="mx-6" alt="" />
-          <span className="flex flex-1 justify-between text-gray-300">
-            <p>Rocketseat - Todos os direitos reservados</p>
-            <p>Políticas de privacidade</p>
-          </span>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
