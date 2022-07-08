@@ -10,8 +10,9 @@ export function Event() {
     <div className="flex flex-col justify-center items-center min-h-screen w-full mx-auto">
       <Header />
       <main className="w-h-full flex flex-1">
-        {slug ? <Video lessonSlug={slug} /> : <div className="flex-1" />}
-
+        {slug 
+        ? <Video lessonSlug={slug} /> 
+        : <div className="flex-1" />}
         <Sidebar />
       </main>
     </div>
