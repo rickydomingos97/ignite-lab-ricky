@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
-
 export function Subscribe() {
   const navigate = useNavigate();
 
@@ -29,7 +28,7 @@ export function Subscribe() {
   return (
     <div className="w-full min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center fixed">
       <img
-        src="/src/assets/react-icon.png"
+        src="../src/assets/react-icon.png"
         alt=""
         className=" mt-[10px] static"
       />
@@ -82,7 +81,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src="/src/assets/code-mockup.png" className="mt-[-200px]" alt="" />
+      <img src="../src/assets/code-mockup.png" className="mt-[-200px]" alt="" />
       <Footer />
     </div>
   );
