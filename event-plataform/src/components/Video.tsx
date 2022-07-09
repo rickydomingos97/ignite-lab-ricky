@@ -10,34 +10,6 @@ import {
 import "@vime/core/themes/default.css";
 import Footer from "./Footer";
 
-const GET_LESSONS_BY_SLUG_QUERY = gql`
-  query GetLessonBySlug($slug: String) {
-    lesson(where: { slug: $slug }) {
-      title
-      videoId
-      description
-      teacher {
-        bio
-        avatarURL
-        name
-      }
-    }
-  }
-`;
-
-interface GetLessonBySlugResponse {
-  lesson: {
-    title: string;
-    videoId: string;
-    description: string;
-    teacher: {
-      bio: string;
-      avatarURL: string;
-      name: string;
-    };
-  };
-}
-
 interface VideoProps {
   lessonSlug: string;
 }
@@ -55,7 +27,12 @@ export function Video(props: VideoProps) {
   if (!data) {
     return (
       <div className="flex flex-1 justify-center h-full w-[1092px]">
-        <div>Carregando...</div>
+        <div className="flex flex-1 justify-center items-center">
+          <h1 className="flex flex-1 text-2xl text-gray-300
+          justify-center items-center p-20
+          ">
+            Loading...</h1>
+        </div>
       </div>
     );
   }
@@ -65,7 +42,7 @@ export function Video(props: VideoProps) {
       <div className="bg-black flex justify-center">
         <div className="h-full w-full max-w-[1100] max-h-[60vh] aspect-video">
           <Player>
-            <Youtube videoId={data.lesson.videoId} key={data.lesson.videoId}/>
+            <Youtube videoId={data.lesson.videoId} key={data.lesson.videoId} />
             <DefaultUi />
           </Player>
         </div>

@@ -12,7 +12,8 @@ export function Event() {
       <main className="w-h-full flex flex-1">
         {slug 
         ? <Video lessonSlug={slug} /> 
-        : <div className="flex-1" />}
+        : <div className="flex-1 w-[1100px] bg-gray-700"/>
+        }
         <Sidebar />
       </main>
     </div>
