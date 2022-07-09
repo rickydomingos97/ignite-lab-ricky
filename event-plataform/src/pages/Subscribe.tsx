@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
-import mockupImage from '../assets/code-mockup.png'
-import {reactIcon } from '../assets/react-icon.png';
+import mockupImage from "../assets/code-mockup.png";
+import iconeReact from "../assets/react-icon.png";
 
 export function Subscribe() {
   const navigate = useNavigate();
@@ -29,11 +29,7 @@ export function Subscribe() {
 
   return (
     <div className="w-full min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center fixed">
-      <img
-        src={reactIcon}
-        alt=""
-        className=" mt-[10px] static"
-      />
+      <img src={iconeReact} alt="" className=" mt-[10px] static" />
       <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto absolute">
         <div className="max-w-[640px]">
           <Logo />
