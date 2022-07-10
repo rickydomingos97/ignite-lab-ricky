@@ -78,7 +78,8 @@ export function Video(props: VideoProps) {
 
           <div className="flex flex-col gap-4">
             <a
-              href=""
+              href="https://discord.com/oauth2/authorize?client_id=949331074079662180&redirect_uri=https%3A%2F%2Fdiscord-service.rocketseat.dev%2Fsignin%2Fdynamic-callback&response_type=code&scope=identify+email+guilds.join&state=ignite-lab"
+              target="_blank"
               className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors"
             >
               <DiscordLogo size="24" />
@@ -86,7 +87,8 @@ export function Video(props: VideoProps) {
             </a>
 
             <a
-              href=""
+              href="https://evento.rocketseat.com.br/ignite-lab/desafios/checkpoints"
+              target="_blank"
               className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors"
             >
               <Lightning size="24" />
@@ -97,7 +99,8 @@ export function Video(props: VideoProps) {
 
         <div className="gap-8 mt-20 grid grid-cols-2">
           <a
-            href=""
+            href="https://www.notion.so/Ignite-Lab-49ac19c6941a4cfe8a614754f3c35945"
+            target="_blank"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
             <div className="bg-green-700 h-full p-6 flex items-center">
@@ -116,7 +119,8 @@ export function Video(props: VideoProps) {
           </a>
 
           <a
-            href=""
+            href="https://drive.google.com/drive/folders/1mxWnvlqmH7MbVRv2Na9xFNgCQCygM1iR"
+            target="_blank"
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
             <div className="bg-green-700 h-full p-6 flex items-center">
