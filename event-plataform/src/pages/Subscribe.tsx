@@ -28,8 +28,9 @@ export function Subscribe() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center fixed">
-      <img src={iconeReact} alt="" className=" mt-[10px] static" />
+    <div className="w-full min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+      <img src={iconeReact}
+      alt="" className=" mt-[10px] static" />
       <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto absolute">
         <div className="max-w-[640px]">
           <Logo />
