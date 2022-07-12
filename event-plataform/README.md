@@ -10,24 +10,25 @@
 
 ---
 
-## Projeto desenvolvido durante o **Ignite Lab**  2022
+## Projeto desenvolvido durante o **Ignite Lab** 2022
+
 ### 🚀 Desenvolvimento
 
-- React JS
-- React-router-dom
-- GraphQL
-- GraphCMS
-- GraphQL Codegen
-- TypeScript
-- TailwindCSS
-- Vime/React
+- [React JS](https://pt-br.reactjs.org/)
+- [React-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [GraphQL](https://graphql.org/)
+- [GraphCMS](https://hygraph.com/)
+- [GraphQL Codegen](https://www.graphql-code-generator.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vime/React](https://vimejs.com/)
 
 ---
 
 ### ⚙️ Funcionalidades
 
-- Inscrição e listagem de dados com GraphQL
-- Reprodução de vídeos com Vime
+- Inscrição e listagem de dados com **GraphQL**
+- Reprodução de vídeos com **Vime**
 
 ---
 
