@@ -8,6 +8,7 @@
   <img alt='' src='https://i.imgur.com/HY6jD52.png'>
 </p>
 
+---
 
 ## Projeto desenvolvido durante o **Ignite Lab**  2022
 ### 🚀 Desenvolvimento
@@ -21,12 +22,16 @@
 - TailwindCSS
 - Vime/React
 
+---
+
 ### ⚙️ Funcionalidades
 
 - Inscrição e listagem de dados com GraphQL
 - Reprodução de vídeos com Vime
 
-### Rodando o projeto
+---
+
+### :rocket: Rodando o projeto
 
 ```bash
 # Clonar o repositorio
@@ -41,3 +46,7 @@ $ npm install
 # Iniciar o projeto
   npm run dev
 ```
+
+---
+
+### Desenvolvido com <3 por Ricardo Domingos
