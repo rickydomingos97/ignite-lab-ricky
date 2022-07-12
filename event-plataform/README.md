@@ -8,6 +8,8 @@
   <img alt='' src='https://i.imgur.com/HY6jD52.png'>
 </p>
 
+
+## Projeto desenvolvido durante o **Ignite Lab**  2022
 ### 🚀 Desenvolvimento
 
 - React JS
@@ -24,9 +26,18 @@
 - Inscrição e listagem de dados com GraphQL
 - Reprodução de vídeos com Vime
 
-### ⚙️ Rodando o projeto
+### Rodando o projeto
 
-- Download do projeto
-- No terminal: npm install para baixar as dependencias
-- Configure seu ambiente env.local com suas credenciais do GraphCMS
-- Rode npm run dev e veja o projeto no localhost:3000
+```bash
+# Clonar o repositorio
+$ git clone git@github.com:rickydomingos97/ignite-lab-ricky.git
+
+# Acessar a pasta
+$ cd event-plataform
+
+# Instalar as dependencias
+$ npm install
+
+# Iniciar o projeto
+  npm run dev
+```
