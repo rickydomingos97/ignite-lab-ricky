@@ -3,9 +3,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer
-      className=" w-full 
-    flex gap-6 md:gap-0 py-4 
-    flex-col md:flex-row md:h-20  
+      className=" w-full
+    flex gap-6 h-20  
     bg-gray-700 items-center justify-between 
     px-5 border-t-2 border-gray-600"
     >

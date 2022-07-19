@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    
     backgroundImage: {
       blur: 'url(/src/assets/blur-bg.png)'
     },

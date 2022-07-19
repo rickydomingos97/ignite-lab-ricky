@@ -28,11 +28,16 @@ export function Subscribe() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+    <div 
+    className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center
+    ">
       <img src={iconeReact}
       alt="" className=" mt-[10px] static" />
-      <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto absolute">
-        <div className="max-w-[640px]">
+      <div 
+      className="max-w-[1100px] flex items-center justify-between mt-20 mx-auto absolute gap-6
+      ">
+        <div className="max-w-[1440px] gap-6 ml-4
+        ">
           <Logo />
 
           <h1 className="mt-8 text-[2.5rem] leading-tight">
@@ -48,7 +53,7 @@ export function Subscribe() {
           </p>
         </div>
 
-        <div className="p-8 bg-gray-700 border border-gray-500 rounded">
+        <div className="p-8 bg-gray-700 border border-gray-500 rounded mr-4">
           <strong className="text-2xl mb-6 block">
             Inscreva-se gratuitamente
           </strong>
@@ -80,7 +85,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src={mockupImage} className="mt-[-200px]" alt="" />
+      <img src={mockupImage} className="m-auto md:mt-[-200px]" alt="" />
       <Footer />
     </div>
   );
